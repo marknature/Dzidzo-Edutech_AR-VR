@@ -204,7 +204,7 @@ We’re building for learners—**by learners**. Contributions are welcome!
 
 ## 📄 License
 
-Licensed under the [Boost Software License - Version 1.0](LICENSE).
+Licensed under the [ AGPL-3.0.](LICENSE).
 Open source, for the future of immersive education.
 
 <br>
