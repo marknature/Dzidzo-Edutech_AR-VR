@@ -608,6 +608,12 @@ pre code {
   margin-left: auto;
 }
 
+@media (min-width: 985px) {
+  .sign {
+    display: none;
+  }
+  }
+
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 540px;
