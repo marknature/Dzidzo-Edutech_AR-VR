@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Edukate - Online Education Website Template</title>
+    <title>Dzidzo</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -31,7 +31,7 @@
         <div class="row py-2 px-lg-5">
             <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center text-white">
-                    <small><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</small>
+                    <small><i class="fa fa-phone-alt mr-2"></i>+263 ** *** ***</small>
                     <small class="px-3">|</small>
                     <small><i class="fa fa-envelope mr-2"></i>info@example.com</small>
                 </div>
@@ -64,7 +64,7 @@
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
             <a href="index.html" class="navbar-brand ml-lg-3">
-                <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>Edukate</h1>
+                <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>Dzidzo EduTecH</h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -95,17 +95,16 @@
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid position-relative overlay-bottom" style="margin-bottom: 90px;">
         <div class="container text-center my-5 py-5">
-            <h1 class="text-white mt-4 mb-4">Learn From Home</h1>
-            <h1 class="text-white display-1 mb-5">Education Courses</h1>
+            <h1 class="text-white mt-4 mb-4">Experience Learning Like Never Before</h1>
+            <h1 class="text-white display-1 mb-5">Augmented Reality Education</h1>
             <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
                 <div class="input-group">
                     <div class="input-group-prepend">
                         <button class="btn btn-outline-light bg-white text-body px-4 dropdown-toggle" type="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Courses</button>
+                            aria-haspopup="true" aria-expanded="false">Classrooms</button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Courses 1</a>
-                            <a class="dropdown-item" href="#">Courses 2</a>
-                            <a class="dropdown-item" href="#">Courses 3</a>
+                            <a class="dropdown-item" href="#">Classroom 1</a>
+                            <a class="dropdown-item" href="#">Classroom 2</a>
                         </div>
                     </div>
                     <input type="text" class="form-control border-light" style="padding: 30px 25px;" placeholder="Keyword">
@@ -125,37 +124,98 @@
             <div class="row">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
+                        <!-- Replace your current image with this 3D container -->
+<div class="image-3d-container">
+  <div class="image-3d-inner">
+    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80&fm=webp" 
+         alt="Immersive AR Education" 
+         class="feature-image-3d">
+  </div>
+</div>
+
+<style>
+/* 3D Image Container */
+.image-3d-container {
+  perspective: 1500px;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.image-3d-inner {
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.feature-image-3d {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  transform: translateZ(50px);
+  border: 3px solid rgba(0, 123, 255, 0.3);
+  filter: drop-shadow(0 10px 20px rgba(0, 91, 187, 0.3));
+}
+
+/* Mouse-tilt 3D Effect */
+.image-3d-container:hover .image-3d-inner {
+  transform: rotateY(10deg) rotateX(5deg);
+}
+
+/* Floating Animation */
+@keyframes float-3d {
+  0%, 100% { transform: translateZ(50px) translateY(0); }
+  50% { transform: translateZ(50px) translateY(-20px); }
+}
+
+.feature-image-3d {
+  animation: float-3d 6s ease-in-out infinite;
+}
+</style>
+
+<script>
+// Enhanced 3D Parallax on Mouse Move
+document.querySelector('.image-3d-container').addEventListener('mousemove', (e) => {
+  const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+  const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+  document.querySelector('.image-3d-inner').style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+});
+</script>
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">About Us</h6>
-                        <h1 class="display-4">First Choice For Online Education Anywhere</h1>
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Welcome to the Future of Education</h6>
+                        <h1 class="display-4">First Choice For Argumentitive Argumentitive Reality Education Anywhere</h1>
                     </div>
-                    <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                    <p>Explore the exciting world of augmented reality in education. Our platform revolutionizes the learning process by bringing abstract concepts to life through immersive AR experiences.</p>
+            <p>With Dzidzo, students can interact with 3D models, explore virtual environments, and gain a deeper understanding of complex subjects through hands-on, visual learning.</p>
                     <div class="row pt-3 mx-0">
                         <div class="col-3 px-0">
                             <div class="bg-success text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">123</h1>
+                                <h1 class="text-white" data-toggle="counter-up">23</h1>
                                 <h6 class="text-uppercase text-white">Available<span class="d-block">Subjects</span></h6>
                             </div>
                         </div>
                         <div class="col-3 px-0">
                             <div class="bg-primary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
+                                <h1 class="text-white" data-toggle="counter-up">169</h1>
                                 <h6 class="text-uppercase text-white">Online<span class="d-block">Courses</span></h6>
                             </div>
                         </div>
                         <div class="col-3 px-0">
                             <div class="bg-secondary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">123</h1>
-                                <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span></h6>
+                                <h1 class="text-white" data-toggle="counter-up">92</h1>
+                                <h6 class="text-uppercase text-white">Interactive<span class="d-block">Learning(%)</span></h6>
                             </div>
                         </div>
                         <div class="col-3 px-0">
                             <div class="bg-warning text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
+                                <h1 class="text-white" data-toggle="counter-up">1324</h1>
                                 <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
                             </div>
                         </div>
@@ -176,14 +236,14 @@
                         <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Why Choose Us?</h6>
                         <h1 class="display-4">Why You Should Start Learning with Us?</h1>
                     </div>
-                    <p class="mb-4 pb-2">Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet.</p>
+                    <p class="mb-4 pb-2">Dzidzo transforms traditional education by merging the power of augmented reality (AR) and web technologies to create immersive, engaging learning experiences. With just a browser, students can explore interactive 3D lessons without the need for expensive devices or software. Built with a focus on accessibility and cultural relevance, Dzidzo is designed to meet the needs of African learners while staying open and adaptable for global use. Whether in a classroom or at home, Dzidzo brings learning to life—anytime, anywhere.</p>
                     <div class="d-flex mb-3">
                         <div class="btn-icon bg-primary mr-4">
                             <i class="fa fa-2x fa-graduation-cap text-white"></i>
                         </div>
                         <div class="mt-n1">
-                            <h4>Skilled Instructors</h4>
-                            <p>Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+                            <h4>Interactive Learning</h4>
+                            <p>Engage with 3D educational content that makes learning memorable and effective for all types of learners.</p>
                         </div>
                     </div>
                     <div class="d-flex mb-3">
@@ -191,8 +251,8 @@
                             <i class="fa fa-2x fa-certificate text-white"></i>
                         </div>
                         <div class="mt-n1">
-                            <h4>International Certificate</h4>
-                            <p>Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+                            <h4>Immersive Experiences</h4>
+                            <p>Step into virtual environments that bring lessons to life with realistic simulations and interactive elements.</p>
                         </div>
                     </div>
                     <div class="d-flex">
@@ -200,8 +260,8 @@
                             <i class="fa fa-2x fa-book-reader text-white"></i>
                         </div>
                         <div class="mt-n1">
-                            <h4>Online Classes</h4>
-                            <p class="m-0">Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+                            <h4>Enhanced Understanding</h4>
+                            <p class="m-0">Visualize complex concepts through augmented reality that makes abstract ideas concrete and understandable.</p>
                         </div>
                     </div>
                 </div>
@@ -362,29 +422,15 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="section-title text-center position-relative mb-5">
-                <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Instructors</h6>
-                <h1 class="display-4">Meet Our Instructors</h1>
+                <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Our Team</h6>
+                <h1 class="display-4">Meet The Team</h1>
             </div>
             <div class="owl-carousel team-carousel position-relative" style="padding: 0 30px;">
                 <div class="team-item">
-                    <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
-                    <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
-                        <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item">
                     <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
                     <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
+                        <h5 class="mb-3">Taonanyasha Shoko</h5>
+                        <p class="mb-2">Founder,<br> CEO of Dzidzo EduTech</p>
                         <div class="d-flex justify-content-center">
                             <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -397,8 +443,8 @@
                 <div class="team-item">
                     <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
                     <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
+                        <h5 class="mb-3">Viola</h5>
+                        <p class="mb-2"> Co-founder & <br> Chief information officer</p>
                         <div class="d-flex justify-content-center">
                             <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -411,8 +457,8 @@
                 <div class="team-item">
                     <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
                     <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
+                        <h5 class="mb-3">Hermish</h5>
+                        <p class="mb-2">Chief Operations Officer</p>
                         <div class="d-flex justify-content-center">
                             <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -421,6 +467,21 @@
                             <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
+                </div>
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mb-3">Mark 'Nature' Chindudzi</h5>
+                        <p class="mb-2">CTIO & LDPA <br> Founding Engineer</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
