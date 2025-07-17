@@ -16,7 +16,7 @@
 * [Contributing](#contributing)
 * [License](#license)
 
----
+<br>
 
 ## 🌍 Project Overview
 
@@ -26,7 +26,7 @@ This current version builds upon [Dzidzo Version 2](https://github.com/marknatur
 
 🛠 **Devpost Submission**: [Dzidzo on Devpost](https://devpost.com/software/dzidzo)
 
----
+<br>
 
 ## ✨ Key Features
 
@@ -48,7 +48,7 @@ This current version builds upon [Dzidzo Version 2](https://github.com/marknatur
 * Role-based admin dashboard for lesson control
 * VR support and gamified learning modules
 
----
+<br>
 
 ## 🧰 Technology Stack
 
@@ -73,7 +73,7 @@ This current version builds upon [Dzidzo Version 2](https://github.com/marknatur
 * Git for version control
 * VS Code + Jupyter for development
 
----
+<br>
 
 ### ⚙️ Setup Instructions
 
@@ -117,7 +117,7 @@ php -S localhost:8000
 python manage.py runserver
 ```
 
----
+<br>
 
 ## 🔨 Development Approach
 
@@ -147,7 +147,7 @@ We follow a **modular, iterative** approach:
 * VR integration
 * Real-time multiplayer learning
 
----
+<br>
 
 ## ✅ Testing
 
@@ -165,7 +165,7 @@ To run test tools:
 npm test
 ```
 
----
+<br>
 
 ## 🌐 Deployment
 
@@ -180,7 +180,7 @@ npm test
 docker-compose up --build
 ```
 
----
+<br>
 
 ## 🤝 Contributing
 
@@ -200,14 +200,14 @@ We’re building for learners—**by learners**. Contributions are welcome!
 * Add tests for major features
 * Follow naming conventions and comments
 
----
+<br>
 
 ## 📄 License
 
 Licensed under the [MIT License](LICENSE).
 Open source, for the future of immersive education.
 
----
+<br>
 
 ## 🌟 Related Links
 
@@ -215,7 +215,7 @@ Open source, for the future of immersive education.
 * 🧠 [Version 2 (Previous Build)](https://github.com/marknature/Dzidzo_AR-VR_Verion-2)
 * 🧪 [Current Version](https://github.com/marknature/Dzidzo-Edutech_AR-VR)
 
----
+<br>
 
 **Made with ❤️ and ambition by Mark Chindudzi and the Dzidzo team.**
 *"Dzidzo is not just a platform—it's the future of African learning."*
