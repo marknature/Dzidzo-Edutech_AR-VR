@@ -137,11 +137,11 @@
                     <div class="position-relative h-100">
                         <!-- Replace your current image with this 3D container -->
 <div class="image-3d-container">
-  <div class="image-3d-inner">
+    <div class="image-3d-inner">
     <img src="img/feature-2.jpg" 
-         alt="Immersive AR Education" 
-         class="feature-image-3d">
-  </div>
+        alt="Immersive AR Education" 
+        class="feature-image-3d">
+    </div>
 </div>
 
 <style>
@@ -191,9 +191,9 @@
 <script>
 // Enhanced 3D Parallax on Mouse Move
 document.querySelector('.image-3d-container').addEventListener('mousemove', (e) => {
-  const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
-  const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
-  document.querySelector('.image-3d-inner').style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+    const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+    const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+    document.querySelector('.image-3d-inner').style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
 });
 </script>
                     </div>
