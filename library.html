@@ -129,10 +129,76 @@
     <!-- Header End -->
 
 
-    <!-- Courses Start -->
+    <!-- Library info Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
-            <div class="row mx-0 justify-content-center">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <!-- Replace your current image with this 3D container -->
+<div class="image-3d-container">
+    <div class="image-3d-inner">
+    <img src="img/feature-9.jpg" 
+        alt="Immersive AR Education" 
+        class="feature-image-3d">
+    </div>
+</div>
+
+<style>
+/* 3D Image Container */
+.image-3d-container {
+  perspective: 1500px;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.image-3d-inner {
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.feature-image-3d {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  transform: translateZ(50px);
+  border: 3px solid rgba(0, 123, 255, 0.3);
+  filter: drop-shadow(0 10px 20px rgba(0, 91, 187, 0.3));
+}
+
+/* Mouse-tilt 3D Effect */
+.image-3d-container:hover .image-3d-inner {
+  transform: rotateY(10deg) rotateX(5deg);
+}
+
+/* Floating Animation */
+@keyframes float-3d {
+  0%, 100% { transform: translateZ(50px) translateY(0); }
+  50% { transform: translateZ(50px) translateY(-20px); }
+}
+
+.feature-image-3d {
+  animation: float-3d 6s ease-in-out infinite;
+}
+</style>
+
+<script>
+// Enhanced 3D Parallax on Mouse Move
+document.querySelector('.image-3d-container').addEventListener('mousemove', (e) => {
+    const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+    const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+    document.querySelector('.image-3d-inner').style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+});
+</script>
+                    </div>
+                </div>
+                
                 <!-- The text content for the "About" section --> 
                 <div class="col-lg-7">
                     <div class="section-title position-relative mb-4" style="text-align: center;">
@@ -140,7 +206,11 @@
                         <h1 class="display-4">Increase Your Love for Reading</h1>
                     </div>
                     <p style="text-align: center;">Discover the joy of reading in a whole new dimension. Our Dzidzo <strong>library</strong> blends tradition with technology—featuring AR/VR-powered books that bring stories to life, immersive audio experiences for on-the-go learners, and soon, access to physical books through partnerships with local booksellers. Whether you're a curious beginner or a lifelong book lover, this is your space to explore, imagine, and grow. Reading isn’t just something you do—it’s something you live. <br><br>
-                    “Education is the most powerful weapon which you can use to change the world.” <br> ~ Nelson Mandela</p>
+                    “Education is the most powerful weapon which you can use to change the world.” <br> ~ Nelson Mandela 
+                    <br><br>
+                        <button class="btn btn-primary px-4" ><a href="#l" style="color: white; text-decoration: none;">Go to Library</a>
+                        </button>
+                    </p>
                     <div class="row pt-3 mx-0">
                         <div class="col-3 px-0">
                             <div class="bg-success text-center p-4">
@@ -168,7 +238,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </div>
