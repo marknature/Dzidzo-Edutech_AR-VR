@@ -20,7 +20,7 @@
 
 ## 🌍 Project Overview
 
-**Dzidzo** (meaning *"education"* in Shona) is a browser-based platform that brings Augmented Reality (AR) and interactive 3D experiences to education, especially targeting African learners and institutions with limited access to immersive technology.
+**Dzidzo** (meaning *"learning"* in Shona) is a browser-based platform that brings Augmented Reality (AR) and interactive 3D experiences to education, especially targeting African learners and institutions with limited access to immersive technology.
 
 This current version builds upon [Dzidzo Version 2](https://github.com/marknature/Dzidzo_AR-VR_Verion-2), transforming the original static template into a full-stack web application with backend support, content management, and emerging AR integrations.
 
