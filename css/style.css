@@ -314,6 +314,17 @@ legend {
   white-space: normal;
 }
 
+.increase-text {
+  font-size: 115% !important; /* Or use rem/px if needed */
+}
+    .footer {
+      font-style: italic;
+      color: #3d3d3d;
+      margin-top: 60px;
+      border-top: 1px solid #ccc;
+      padding-top: 20px;
+    }
+
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
