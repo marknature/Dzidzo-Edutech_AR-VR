@@ -1991,12 +1991,12 @@ h6 {
   background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/profile-layout-header.jpg');
 }
 
-.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/creativetimofficial\/public-assets\/master\/argon-dashboard-pro\/assets\/img\/signin-ill\.jpg\'\)\] {
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signin-ill.jpg');
+.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/marknature\/Dzidzo-Edutech_AR-VR\/main\/img\/main-img2\.png\'\)\]{
+  background-image: url('https://raw.githubusercontent.com/marknature/Dzidzo-Edutech_AR-VR/main/img/main-img2.png');
 }
 
-.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/creativetimofficial\/public-assets\/master\/argon-dashboard-pro\/assets\/img\/signup-cover\.jpg\'\)\] {
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signup-cover.jpg');
+.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/marknature\/Dzidzo-Edutech_AR-VR\/main\/img\/main-img\.png\'\)\]{
+  background-image: url('https://raw.githubusercontent.com/marknature/Dzidzo-Edutech_AR-VR/main/img/main-img.png');
 }
 
 .from-transparent {
@@ -2171,7 +2171,7 @@ h6 {
 
 .object-cover {
   -o-object-fit: cover;
-     object-fit: cover;
+    object-fit: cover;
 }
 
 .p-0 {
