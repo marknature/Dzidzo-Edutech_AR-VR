@@ -138,7 +138,7 @@
                         <!-- Replace your current image with this 3D container -->
 <div class="image-3d-container">
     <div class="image-3d-inner">
-        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80&fm=webp" alt="Immersive AR Education" class="feature-image-3d">
+        <img src="img/LOGO_home.png" alt="Immersive AR Education" class="feature-image-3d">
     </div>
 </div>
 
@@ -203,8 +203,9 @@ document.querySelector('.image-3d-container').addEventListener('mousemove', (e) 
                         <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Welcome to the Future of Education</h6>
                         <h1 class="display-4">First Choice For Augmented Reality Education Anywhere</h1>
                     </div>
-                    <p>Explore the exciting world of augmented reality in education. Our platform revolutionizes the learning process by bringing abstract concepts to life through immersive AR experiences.</p>
-            <p>With Dzidzo, students can interact with 3D models, explore virtual environments, and gain a deeper understanding of complex subjects through hands-on, visual learning.</p>
+                    <p>Dzidzo EduTech is transforming education through cutting-edge AR and VR technology. Our platform creates immersive virtual classrooms where students can explore, interact, and learn in ways that traditional methods simply can’t match. From science labs to historical simulations, we make complex subjects engaging and easier to understand.<br><br>
+
+                    Our mission is to make high-quality, interactive education accessible to every learner, no matter where they are. By combining innovation, technology, and a passion for learning, Dzidzo EduTech is shaping the future of education—bringing lessons to life and inspiring the next generation of thinkers and creators.</p>
             <div class="w-100">
                         <div class="input-group">
                             <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Read Our Documentation">
@@ -217,56 +218,7 @@ document.querySelector('.image-3d-container').addEventListener('mousemove', (e) 
             </div>
         </div>
     </div>
-    <!-- About End -->
-
-    <!-- Feature Start -->
-    <div class="container-fluid bg-image" style="margin: 90px 0;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 my-5 pt-5 pb-lg-5">
-                    <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Why Choose Us?</h6>
-                        <h1 class="display-4">Why You Should Start Learning with Us?</h1>
-                    </div>
-                    <p class="mb-4 pb-2">Dzidzo transforms traditional education by merging the power of augmented reality (AR) and web technologies to create immersive, engaging learning experiences. With just a browser, students can explore interactive 3D lessons without the need for expensive devices or software. Built with a focus on accessibility and cultural relevance, Dzidzo is designed to meet the needs of African learners while staying open and adaptable for global use. Whether in a classroom or at home, Dzidzo brings learning to life—anytime, anywhere.</p>
-                    <div class="d-flex mb-3">
-                        <div class="btn-icon bg-primary mr-4">
-                            <i class="fa fa-2x fa-graduation-cap text-white"></i>
-                        </div>
-                        <div class="mt-n1">
-                            <h4>Interactive Learning</h4>
-                            <p>Engage with 3D educational content that makes learning memorable and effective for all types of learners.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-3">
-                        <div class="btn-icon bg-secondary mr-4">
-                            <i class="fa fa-2x fa-certificate text-white"></i>
-                        </div>
-                        <div class="mt-n1">
-                            <h4>Immersive Experiences</h4>
-                            <p>Step into virtual environments that bring lessons to life with realistic simulations and interactive elements.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="btn-icon bg-warning mr-4">
-                            <i class="fa fa-2x fa-book-reader text-white"></i>
-                        </div>
-                        <div class="mt-n1">
-                            <h4>Enhanced Understanding</h4>
-                            <p class="m-0">Visualize complex concepts through augmented reality that makes abstract ideas concrete and understandable.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/feature-5.jpg" style="object-fit: cover;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Feature Start -->
-
+    <!-- Logo End -->
 
     <!-- Footer Start -->
     <div class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style="margin-top: 90px;">
@@ -355,23 +307,22 @@ document.querySelector('.image-3d-container').addEventListener('mousemove', (e) 
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <script>
-        fetch('documentation/documentation_dzidzo-edutech.pdf')
-        .then(response => {
-            if (!response.ok) throw new Error('Network response was not ok');
-            return response.blob();
-                    })
-        .then(blob => {
-            const url = window.URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'filename.pdf';
-            document.body.appendChild(a);
-            a.click();
-            a.remove();
-            window.URL.revokeObjectURL(url);
-                    })
-        .catch(error => console.error('Download failed:', error));
-    </script>
+document.getElementById('downloadDynamicPdf').addEventListener('click', function() {
+    fetch('documentation/dzidzo_documentation.pdf')
+.then(response => response.blob())
+.then(blob => {
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'dzidzo_documentation.pdf';
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        window.URL.revokeObjectURL(url);
+      })
+.catch(() => alert('Failed to download PDF.'));
+});
+</script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
