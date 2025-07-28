@@ -1,6 +1,6 @@
 # Dzidzo: Augmented Reality Web Education Platform
 
-![Dzidzo Logo](https://github.com/marknature/Dzidzo-Edutech_AR-VR/raw/main/logo.png)
+![Dzidzo Logo](img/LOGO.png)
 *Transforming African education through immersive and accessible technology*
 
 ## 📚 Table of Contents
