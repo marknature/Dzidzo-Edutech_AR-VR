@@ -129,13 +129,12 @@
     </div>
     <!-- Header End -->
 
-        <!-- About Start -->
+        <!-- Logo Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <!-- Replace your current image with this 3D container -->
 <div class="image-3d-container">
     <div class="image-3d-inner">
         <img src="img/LOGO_home.png" alt="Immersive AR Education" class="feature-image-3d">
@@ -306,6 +305,7 @@ document.querySelector('.image-3d-container').addEventListener('mousemove', (e) 
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
+    <!-- documantation dounload -->
     <script>
 document.getElementById('downloadDynamicPdf').addEventListener('click', function() {
     fetch('documentation/dzidzo_documentation.pdf')
@@ -319,7 +319,7 @@ document.getElementById('downloadDynamicPdf').addEventListener('click', function
         link.click();
         link.remove();
         window.URL.revokeObjectURL(url);
-      })
+            })
 .catch(() => alert('Failed to download PDF.'));
 });
 </script>
