@@ -8,7 +8,12 @@ const restrictedPages = [
   { page: 'detail.html', level: null },
   { page: 'course.html', level: null },
   { page: 'logo_page.html', level: null },
-  { page: 'library.html', level: null }
+  { page: 'library.html', level: null },
+  { page: 'admin_src/build/pages/billing.html', level: 'admin' },
+  { page: 'admin_src/build/pages/dashboard.html', level: 'admin' },
+  { page: 'admin_src/build/pages/profile.html', level: 'admin' },
+  { page: 'admin_src/build/pages/tables.html', level: 'admin' },
+  { page: 'admin_src/build/pages/virtual-reality.html', level: 'admin' },
 ];
 
 const currentPage = window.location.pathname.split('/').pop();
