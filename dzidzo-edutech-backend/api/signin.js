@@ -1,5 +1,5 @@
 import bcrypt from 'bcryptjs';
-import { supabase } from '../../lib/supabaseClient';
+import { supabase } from './supabaseClient';
 
 export default async function handler(req, res) {
   const { email, password } = req.body;
